@@ -52,7 +52,7 @@ document.getElementById('quoteForm').addEventListener('submit', function (e) {
     submitButton.disabled = true;
 
     // Replace with your actual API URL
-    const apiUrl = 'https://0644-106-205-156-151.ngrok-free.app/api/people/fill-quotation';
+    const apiUrl = 'https://013e-106-219-140-88.ngrok-free.app/api/people/fill-quotation';
 
     // Make POST API call
     fetch(apiUrl, {
