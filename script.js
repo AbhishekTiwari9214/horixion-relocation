@@ -52,14 +52,13 @@ document.getElementById('quoteForm').addEventListener('submit', function (e) {
     submitButton.disabled = true;
 
     // Replace with your actual API URL
-    const apiUrl = 'https://013e-106-219-140-88.ngrok-free.app/api/people/fill-quotation';
+    const apiUrl = 'https://horixion-relocation.azurewebsites.net/api/people/fill-quotation';
 
     // Make POST API call
     fetch(apiUrl, {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json',
-            "ngrok-skip-browser-warning": "69420"
+            'Content-Type': 'application/json'
         },
         body: JSON.stringify(formData)
     })
